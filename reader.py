@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-"""Readium LCP（basic プロファイル）の最小リーダー
+    # python3 reader.py licensed.epub <passphrase> [decrypted.epub]
 
-    python3 reader.py licensed.epub <passphrase> [decrypted.epub]
-
-license.lcpl を検証してコンテンツ鍵を取り出し、暗号化されたリソースを復号して
-DRM なしの EPUB として書き出す。
-"""
 import base64
 import hashlib
 import json
