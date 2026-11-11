@@ -1,0 +1,17 @@
+# lcpserver (v2) の設定。パスはリポジトリのルートからの相対パス
+log_level: "info"
+public_base_url: "http://localhost:8989"
+port: 8989
+dsn: "sqlite3://file:.lcp/db/lcp.sqlite?cache=shared&mode=rwc"
+access:
+    username: "admin"
+    password: "admin"
+certificate:
+    cert: "test/cert/cert-edrlab-test.pem"
+    private_key: "test/cert/privkey-edrlab-test.pem"
+license:
+    provider: "https://example.com"
+    profile: "http://readium.org/lcp/basic-profile"
+    hint_link: "https://example.com/hint"
+# 暗号化済み EPUB を /resources/* で配信する
+resources: ".lcp/files/storage"

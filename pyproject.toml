@@ -1,0 +1,15 @@
+[project]
+name = "lcp-toy-reader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ru322", email = "168622173+ru322@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography>=50.0.2",
+]
+
+[tool.uv]
+package = false

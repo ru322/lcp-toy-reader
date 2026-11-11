@@ -1,0 +1,11 @@
+{
+  "publication_id": "00000000-0000-4000-8000-000000000001",
+  "user_id": "user-1",
+  "user_email": "reader@example.com",
+  "user_encrypted": ["email"],
+  "text_hint": "hoge",
+  "pass_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+  "print": 10,
+  "copy": 2000,
+  "end": "2030-01-01T00:00:00Z"
+}
